@@ -1,0 +1,338 @@
+*{
+    font-family: 'Kanit', sans-serif;
+
+}
+
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(./images/ad.jpg);
+    background-size: cover;
+}
+
+
+
+.box{
+    width: 900px;
+    float: right;
+
+}
+
+.linkitem{
+    width: 120px;
+    float: left;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover{
+color: red;    
+}
+
+.op{
+width: 300px;
+height: 540px;
+background-color: black;
+opacity: 0.8;
+padding: 30px;
+}
+
+.logo{
+    width: 80px;
+    height: 100px;
+    border-radius: 50px;
+    text-align: center;
+    
+}
+
+.op h2{
+    color: white;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: -80px;
+}
+
+
+
+.op p{
+    color: white;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+#h{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 1px;
+    width: 20px;
+}
+
+#button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(17, 15, 15);
+    width: 110px;
+    height: 30px;
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 85px;
+}
+
+
+.head{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: -370px;
+    color: whitesmoke;
+    margin-left: 70px;
+}
+
+
+
+.opt button{
+    background-color: rgb(247, 242, 242);
+    text-decoration: none;
+    color: rgb(14, 14, 14);
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    align-content: center;
+}
+
+.opt button:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+#ha{
+    width: 23%;
+    height: 30px;
+}
+
+
+
+
+#afsal:hover{
+    background-color: rgb(6, 255, 110);
+    color: black;
+}
+#afsal{
+    background-color: black;
+    color: whitesmoke;
+    width: 110px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.shabari{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    margin-top: -29px;
+}
+
+.shabari h1{
+    color: yellow;
+    text-align: center;
+    padding: 40px;
+    font-weight: bold;
+    font-size: 35px;
+
+
+}
+
+
+.photo{
+    height: 50%;
+    padding: 2px;
+    margin-top: -30px;
+    text-align: center;
+    margin-left: 18%;
+}
+
+
+.shabari p{
+    color: wheat;
+    text-align: justify;
+    margin: 10px;
+    padding: 0% 10%;
+
+}
+
+.menu{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    margin-top: -27px;
+}
+
+.menu h1{
+    color: rgb(255, 255, 0);
+    text-align: center;
+    font-size: 30px;
+    padding: 25px;
+
+}
+
+/* menu */
+
+.e{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 95px;
+}
+
+.e img{
+    float: left;
+    justify-content: space-between;
+    padding: 0%;
+    background-color: black;
+    border: px;
+
+    
+}
+
+.e img:hover{
+    box-shadow: 0px 0px 10px 10px  yellow;
+    border-radius: 7px;
+}
+
+/* order */
+
+.az{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    margin-top: -20px;
+}
+
+.az h2{
+    color: yellow;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.o img{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    cursor: pointer;
+    
+}
+
+
+#ORDER{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+
+.o h4{
+    text-align: center;
+    padding: 5px;
+    margin-top: -5%;
+    color: whitesmoke;
+}
+
+.o h4:hover{
+    
+    cursor: pointer;
+}
+
+.o button{
+    padding: 5px 30px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 15px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.5s all;
+}
+
+.o button:hover{
+    transform: scale(1.04);
+}
+
+.c{
+    background-color: black;
+    width: 100%;
+    height: 30vh;
+    margin-top: -29px;
+}
+
+.socials h1{
+    text-align: center;
+    color: white;
+
+}
+.iconset{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+gap: 4rem;
+}
+.icon{
+  font-size: 40px;
+
+}
+
+.icon i{
+color: white;
+}
+
+.icon i:hover{
+    color: yellow;
+    animation: shake 0.50s;
+}
+
+@keyframes shake{
+
+    10%{
+        transform: rotate(15deg);
+    }
+    
+    20%{
+        transform: rotate(-15deg);
+    }
+    
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+    
+    }
+
+    /* footer */
+
+    footer p{
+        margin-top: 30px;
+        color: yellow;
+        font-size: large;
+    }
+
+
+
+
+
+
